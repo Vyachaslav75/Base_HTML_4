@@ -164,10 +164,15 @@ html {
 }
 
 .one-sect {
+    width: 1600px;
+    height: 764px;
+    flex-shrink: 0;
+
     display: flex;
     justify-content: space-around;
     margin-top: 65px;
     gap: 30px;
+    fill: #F1E4E6;
 }
 
 .text-box2 {
@@ -183,23 +188,27 @@ html {
 }
 
 .one-img {
-    height: 300px;
-    width: 200px;
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
 }
 
 .sec-img {
-    height: 300px;
-    width: 200px;
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
 }
 
 .third-img {
-    height: 300px;
-    width: 200px;
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
 }
 
 .four-img {
-    height: 300px;
-    width: 200px;
+    width: 1140px;
+    height: 180px;
+    flex-shrink: 0;
 }
 
 .third-sect {
