@@ -141,7 +141,7 @@ html {
 
 .header {
     display: flex;
-    width: 1600px;
+    width: 1400px;
     height: 75px;
     flex-shrink: 0;
     justify-content: space-between;
@@ -164,24 +164,73 @@ html {
 }
 
 .one-sect {
-    width: 1600px;
+    width: 1000px;
     height: 764px;
     flex-shrink: 0;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 65px;
     gap: 30px;
     fill: #F1E4E6;
 }
 
-.text-box2 {
-    display: flex;
-    justify-content: center;
+.image-box1 {
+    fill: #151313;
 }
 
+.text-box2 {
+    display: flex;
+    min-height: 700px;
+    min-width: 700px;
+    
+    align-items: center;
+    border: 1px solid #000;
+    color: #F1E4E6;
+    gap: 64px;
+}
+
+.text-box22 {
+    /*width: 350px;*/
+    border-left: 12px solid #F16D7F;;
+
+}
+
+.text1 {
+    align-self: center;
+}
+
+.text11 {
+    align-self: center;
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.text12 {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text13 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .sec-sect {
+    margin-top: 65px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -209,6 +258,8 @@ html {
     width: 1140px;
     height: 180px;
     flex-shrink: 0;
+    grid-column: span 3;
+    /* grid-row: span 3; */
 }
 
 .third-sect {
