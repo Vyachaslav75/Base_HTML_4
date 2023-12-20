@@ -183,7 +183,7 @@ html {
     display: flex;
     min-height: 700px;
     min-width: 700px;
-    
+
     align-items: center;
     /* border: 1px solid #000; */
     color: #F1E4E6;
@@ -252,13 +252,24 @@ html {
 }
 
 .text-in-img {
-    
-    font-size: 48;
-    color: #F1E4E6;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .text-in-img1 {
     color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .last-pic {
@@ -280,9 +291,25 @@ html {
 }
 
 .text2 {
+    color: #222;
+
     font-family: Lato;
-    font-size: 48px;
-    
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.text21 {
+    color: #9F9F9F;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-self: center;
 }
 
 .one-img {
@@ -312,9 +339,7 @@ html {
     grid-column: span 3;
 } */
 
-.third-sect {
-    
-}
+.third-sect {}
 
 .second-grid {
     display: grid;
