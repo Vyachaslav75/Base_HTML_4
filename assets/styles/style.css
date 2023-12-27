@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 0;
 }
+
 html {
     font-family: 'Lato', sans-serif;
 }
@@ -14,24 +16,31 @@ html {
 .red {
     color: #F16D7F;
 }
+
 .center {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .bg-color-light-black {
     background-color: #222;
 }
+
 .font-lato {
     font-family: Lato;
     font-style: normal;
     line-height: normal;
 }
+
 .upcase {
     text-transform: uppercase;
 }
+
 .header {
-    background-color: #222;;
+    background-color: #222;
+    ;
 }
+
 .header_container {
     display: flex;
     align-items: center;
@@ -40,11 +49,13 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .header__logo {
     display: flex;
     align-items: flex-end;
     gap: 41px;
 }
+
 .header__nav {
     list-style: none;
     display: flex;
@@ -56,12 +67,14 @@ html {
 .intro {
     background-color: #F1E4E6;
 }
+
 .intro_container {
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
     gap: 64px;
 }
+
 .intro-content {
     align-self: center;
     border-left: 12px solid #F16D7F;
@@ -76,6 +89,7 @@ html {
     line-height: normal;
     text-transform: uppercase;
 }
+
 .intro-content__sub-title {
     font-size: 32px;
     font-weight: 700;
@@ -90,14 +104,17 @@ html {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
 .offer__card {
     position: relative;
 }
+
 .offer-card__image {
     width: 100%;
     height: 100%;
 }
-.offer-card__text{
+
+.offer-card__text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -107,8 +124,9 @@ html {
     font-weight: 400;
     line-height: normal;
     transform: translate(-50%, -50%);
-    
+
 }
+
 .offer__card-bg {
     background: rgba(33, 22, 22, 0.70);
     position: absolute;
@@ -117,6 +135,7 @@ html {
     width: 100%;
     height: 100%;
 }
+
 .card-big {
     grid-column: span 3;
 }
@@ -124,6 +143,7 @@ html {
 .feature {
     margin-top: 96px;
 }
+
 .feature-header {
     display: flex;
     flex-direction: column;
@@ -133,24 +153,28 @@ html {
     margin: 0 auto;
     margin-bottom: 48px;
 }
+
 .feature-header__title {
     color: #222;
     font-size: 30px;
     font-weight: 400;
     line-height: normal;
 }
+
 .feature-header__desc {
     color: #9F9F9F;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
 }
+
 .feature-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 48px;
 }
+
 .feature-card__content {
     display: flex;
     padding: 24px 16px;
@@ -159,11 +183,13 @@ html {
     gap: 16px;
     background-color: #F8F8F8;
 }
+
 .feature-card__image {
     position: relative;
     cursor: pointer;
     width: 100%;
 }
+
 .feature-card__image:hover::after {
     background-color: rgba(58, 56, 56, 0.86);
     content: '';
@@ -173,6 +199,7 @@ html {
     width: 100%;
     height: 100%;
 }
+
 .feature-card__button {
     position: absolute;
     left: 50%;
@@ -195,28 +222,33 @@ html {
 .feature-card__image:hover .feature-card__button {
     opacity: 1;
 }
+
 .feature-card__title {
     color: #000;
     font-size: 13px;
     font-weight: 400;
     line-height: normal;
 }
+
 .feature-card__desc {
     color: #5D5D5D;
     font-size: 14px;
     font-weight: 300;
     line-height: normal;
 }
+
 .feature-card__price {
     color: #F16D7F;
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
 }
+
 .feature-button-wrapper {
     display: flex;
     justify-content: center;
 }
+
 .feature__button {
     padding: 15px 39px;
     color: #F26376;
@@ -227,6 +259,7 @@ html {
     border: 1px solid #F26376;
     cursor: pointer;
 }
+
 .feature__button:hover {
     background-color: #F16D7F;
     color: #FFF;
@@ -234,7 +267,7 @@ html {
 
 
 @media (max-width: 767px) {
-    .hide-mobile{
+    .hide-mobile {
         display: none;
     }
 
@@ -252,12 +285,46 @@ html {
     .offer {
         display: flex;
         flex-wrap: wrap;
-        
+
     }
 
     .feature-items {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .intro-content__title {
+        color: #222;
+
+        font-family: Lato;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .intro-content__sub-title {
+        color: #222;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        
+    }
+
+    .red {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .card-big {
+        height: 111px;
     }
 
 }
